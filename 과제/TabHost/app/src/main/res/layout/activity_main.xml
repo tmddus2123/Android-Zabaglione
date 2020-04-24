@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/TabHost">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/Puppy"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/puppy"></ImageView>
+
+            <ImageView
+                android:id="@+id/Cat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/cat"></ImageView>
+
+            <ImageView
+                android:id="@+id/Fox"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/fox"></ImageView>
+
+            <ImageView
+                android:id="@+id/Rabbit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/rabbit"></ImageView>
+
+        </FrameLayout>
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:background="#56CEFF">
+
+        </TabWidget>
+
+    </LinearLayout>
+</TabHost>
